@@ -30,15 +30,69 @@
 			<tr>
 				<th>Surf Spot</th>
 				<th>Swell Size ft.</th>
-				<th>Swell Direction</th>
+				<th>Swell Direction degrees</th>
+				<th>Location</th>
 			</tr>
 		</thead>    
 		<tr>
 			<td>Himalayas</td>
 			<td>6 - 20 ft.</td>
-			<td>295 -305</td>
+			<td>295-305</td>
+			<td>Outer Reef</td>
+		</tr>
+		<tr>
+			<td>Log Cabins</td>
+			<td>10-25 ft.</td>
+			<td>295-318</td>
+			<td>Outer Reef</td>
+		</tr>
+		<tr>
+			<td>Waimea Bay</td>
+			<td>10-25 ft.</td>
+			<td>300-318</td>
+			<td>Waimea Valley</td>
+		</tr>
+		<tr>
+			<td>Phantoms</td>
+			<td>10-25 ft.</td>
+			<td>295-305</td>
+			<td>Outer Reef</td>
 		</tr>
 	</table>
+
+	<h2>Supply Check List</h2>
+	<ul>
+		<li><h3>Gear</h3></li>
+			<form action="form.asp" method="get">
+				<input type="checkbox" name="gear">Surfboard Gun<br>
+				<input type="checkbox" name="gear">Sun Screen<br>
+				<input type="checkbox" name="gear">Board Wax<br>
+				<input type="checkbox" name="gear">Board Fins<br>
+				<input type="checkbox" name="gear">Surfboard Leash<br>
+				<input type="checkbox" name="gear">Wetsuit<br>
+				<input type="checkbox" name="gear">Impact Suit<br>
+				<input type="checkbox" name="gear">Eye Contacts<br>
+				<input type="checkbox" name="gear">Towel<br>
+			</form>
+		<ol>
+			<li class="noStyle"><h3>Perishables</h3></li>
+			<li>Water Jug</li>
+			<li>Energy Bar/ fruits</li>
+			<li>Shower Water</li>
+		</ol>
+	</ul>
+	<h2>Contacts Me</h2>
+	<p>Enter Your contact information below with a breif message and I'll be sure to get back to you ASAP.</p>
+
+	<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+	Name:<br>
+	<input type="text" name="name"><br>
+	E-mail:<br>
+	<input type="text" name="comment" size="50"><br><br>
+	<input type="submit" name="Send">
+	<input type="reset" name="Reset">
+	</form>
+
 	
 </body>
 </html>
